@@ -5,10 +5,9 @@
 body, html {
     font-family: 'Raleway', sans-serif;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     line-height: 25px;
     letter-spacing: 0.8px;
-
     height: 100%;
     color:#424242;
     width: 100%;
@@ -317,6 +316,7 @@ h2 {
     width: 90%;
     margin: 0 auto;
     padding: 40px 20px;
+    height: auto;
 }
 
 #projects h4 {
@@ -339,8 +339,9 @@ h2 {
 }
 
 #carousel {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
+
 }
 
 .carousel-caption {
@@ -796,6 +797,13 @@ footer h6 {
     .title {
         width: 80%;
     }
+    #carousel {
+        width: 100%;
+        margin: 0 auto;
+      
+    }
+
+
 }
 
 
@@ -820,6 +828,12 @@ footer h6 {
     .title p {
         font-size: 0.7rem;
     }
+
+    #carousel {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     #about h4,
     #products h4,
     #projects h4,
@@ -865,6 +879,7 @@ footer h6 {
     #carousel {
         width: 95%;
         margin: 0 auto;
+ 
     }
 
     .footer-links ul a {
