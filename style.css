@@ -1,0 +1,1048 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    background-color: #fff;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+
+    height: 100%;
+    color:#424242;
+    width: 100%;
+    padding: 0;
+}
+
+/*Navbar Style */
+.notification-bar {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.notification-bar a {
+    color: #44ADA5;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 5px;
+}
+
+.bi-cart2 {
+    padding: 7px 10px;
+    
+    
+}
+
+
+.navbar-brand {
+    padding-left: 30px;
+    text-shadow: 1px 1px rgb(51, 51, 51);
+    font-family:'Raleway', sans-serif;
+
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+/*Home Style */
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #44ADA5;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    text-shadow: 1px 2px black;
+    padding-top: 50px;
+}
+
+#home {
+    background: url("Gallery/collov-home-design-MopQfWaJFiw-unsplash.jpg") center center no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative; 
+}
+
+.title {
+    width: 60%;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
+    position: relative;
+    top: 120px;
+    box-shadow: 7px 7px 4px #26615c;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.title h4 {
+    padding-left: 180px;
+    -webkit-animation: slogan 5s 3s reverse;
+    -moz-animation: slogan 5s 3s reverse;
+    -o-animation: slogan 5s 3s reverse;
+    animation: slogan 5s 3s reverse;
+    font-weight: 300;
+   
+}
+
+@-webkit-keyframes slogan {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(20px);
+              transform: translateX(20px);
+    }
+  }
+
+  @-moz-keyframes slogan {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(20px);
+              transform: translateX(20px);
+    }
+  }
+
+  @-o-keyframes slogan {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(20px);
+              transform: translateX(20px);
+    }
+  }
+
+  @keyframes slogan {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateX(20px);
+              transform: translateX(20px);
+    }
+  }
+
+hr {
+    margin: 0 70px;
+    padding-bottom: 15px;
+    color:rgb(51, 51, 51);
+}
+
+/*About Section Style */
+
+#about {
+    padding: 60px 20px;
+    margin: 20px auto;
+    
+}
+
+.toggle-item {
+    display: none;
+}
+
+h2 {
+    padding-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #44ADA5;
+    text-shadow: 1px 1px #424242;
+    font-size: 2rem;
+}
+
+
+.us h4 {
+    color: #424242;
+    font-family: "Raleway", Sans-serif;
+    font-size: 26px !important;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+    letter-spacing: 8.7px;
+    padding-bottom: 20px; 
+    
+}
+
+.us img {
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+}
+
+/*Products Section Style */
+
+#products {
+    width: 95%;
+    padding: 50px 0;
+    height: auto;
+    margin: 0 auto;
+}
+
+.product-description {
+    text-align: center;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+#products h4 {
+    color: #424242;
+    font-family: "Raleway", Sans-serif;
+    font-size: 26px !important;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+    letter-spacing: 8.7px;
+    padding-bottom: 20px; 
+    
+}
+
+#products a:link{
+    color: #26615c;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+
+
+.info1 {
+    background: url('Gallery/luxuryLiving.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: auto;
+    transition: all 2s linear 0.3s;
+    border: solid 1px rgb(83, 83, 83) !important;
+}
+
+.info1:hover {
+    transform: scale(0.9);
+}
+
+.info2 {
+    background: url('Gallery/LuxuryKitchen.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    transition: all 2s linear 0.3s;
+    border: solid 1px rgb(83, 83, 83) !important;
+}
+
+.info2:hover {
+    transform: scale(0.9);
+}
+
+.info3 {
+    background: url('Gallery/luxuryBathroom.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: auto;
+    transition: all 2s linear 0.3s;
+    border: solid 1px rgb(83, 83, 83) !important;
+}
+.info3:hover {
+    transform: scale(0.9);
+}
+
+#products button {
+    background: rgba(0,0,0, 0.4) !important;
+    border: solid 1px rgb(83, 83, 83) !important;
+    color: white;
+    padding: 5px 10px;
+    letter-spacing: 3.8px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+#products button:hover {
+    background: transparent !important;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border: solid 1px rgb(26, 26, 26) !important;
+    font-size: 18px;
+}
+
+
+.border h3 {
+    color: white;
+    font-weight: 500;
+    padding-top: 150px;
+    padding-bottom: 0;
+    letter-spacing: 3px;
+
+}
+
+.bi {
+    font-size: 2rem;
+    color:#44ADA5; 
+    padding-bottom: 20px;
+}
+.bi:hover {
+    color: #26615c;
+}
+
+/*Projects Section Style */
+
+#projects {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+#projects h4 {
+    color: #424242;
+    font-family: "Raleway", Sans-serif;
+    font-size: 26px !important;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+    letter-spacing: 8.7px;
+    padding-bottom: 20px;
+}
+
+.project-description {
+    text-shadow: 1px 1px black;
+}
+
+.project-description:hover {
+    text-shadow: 1px 1px black;
+    font-size: 24px;
+}
+
+#carousel {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0, 0.3);
+}
+
+/*Meet the Team Section Style */
+
+#team {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+#team img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #26615c;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px gray;
+}
+
+#team img:hover {
+    transform: scale(0.9);
+    background-color: rgba(0,0,0, 0.5);
+    transition: all 2s linear 0.3s;
+}
+
+#team h3 {
+    color: #424242;
+    font-family: "Raleway", Sans-serif;
+    font-size: 20px !important;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+    letter-spacing: 8.7px;
+    padding-bottom: 20px;
+
+}
+
+#team h4 {
+    color: #424242;
+    font-family: "Raleway", Sans-serif;
+    font-size: 26px !important;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+    letter-spacing: 8.7px;
+    padding-bottom: 20px;
+}
+
+.members {
+    margin: 0 auto;
+    width: 100%;
+    padding: 30px;
+}
+
+.team p {
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+
+}
+
+.come-in {
+    /*transform: translateY(100px);*/
+    transform: translate3d(0, 150px, 0);
+    -webkit-animation: come-in 2s ease forwards;
+    -moz-animation: come-in 2s ease forwards;
+    -o-animation: come-in 2s ease forwards;
+    animation: come-in 2s ease forwards;
+  }
+  .come-in:nth-child(odd) {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+  }
+  .already-visible {
+    /*transform: translateY(0);*/
+    transform: translate3d(0, 0, 0);
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+  }
+  
+  @keyframes come-in {
+    to { transform: translate3d(0, 0, 0); }
+  }
+
+  @-moz-keyframes come-in {
+    to { transform: translate3d(0, 0, 0); }
+  }
+
+  @-o-keyframes come-in {
+    to { transform: translate3d(0, 0, 0); }
+  }
+
+  @-webkit-keyframes come-in {
+    to { transform: translate3d(0, 0, 0); }
+  }
+
+
+
+.caption {
+    text-align: center;
+}
+
+
+/*Contact Section Style */
+
+#contact {
+    width: 100%;
+    padding: 60px 20px;
+    margin: 0 auto;
+    background: url('Gallery/contactBg.jpg') center center no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+#contact:before {
+    content: '';
+    background-color: rgba(0,0,0, 0.5);
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+}
+
+#contact h4 {
+    color: #424242;
+    font-family: "Raleway", Sans-serif;
+    font-size: 26px !important;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+    letter-spacing: 8.7px;
+    padding-bottom: 20px;
+}
+
+#contact .btn {
+    color: white;
+    border: transparent;
+}
+
+#contact .btn:hover {
+    border: gray;
+}
+
+#contact span {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+#contact h2 {
+    text-shadow: 2px 2px black !important;
+    color: #44ADA5;
+    font-weight: bolder;
+}
+
+#contact h2, h3 {
+    padding: 20px;
+    text-shadow: 1px 1px #26615c;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*Footer Section Style */
+
+footer {
+   border-top: solid 0.5px rgb(100, 100, 100);
+   margin: 0;
+}
+
+
+.links ul a {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 0 auto;
+    list-style-type:none;
+    font-size: 16px;
+    color:#26615c;
+ 
+}
+
+footer h6 {
+    font-size: 10px !important;
+    text-align: center;
+    color:#000;
+}
+
+.social .fa {
+    color:#26615c;
+    font-size: 24px;
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    text-decoration: none;
+}
+
+
+.fa-facebook:hover {
+    color: #3B5998;
+}
+
+.fa-instagram:hover {
+    color: rgb(209, 66, 161);
+}
+
+.fa-google:hover {
+    color: #dd4b39;
+}
+
+.fa-youtube:hover {
+    color: #bb0000;
+}
+
+.fa-twitter:hover {
+    color: #55ACEE;
+}
+
+.bi-arrow-up-circle-fill {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+.bi-arrow-up-circle-fill::after {
+  color: #fff;
+}
+
+.bi-arrow-up-circle-fill.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+/*Living Room Styles*/
+.ribbon-holder{
+    overflow: hidden;
+    position: relative;
+}
+
+.ribbon{
+    position: absolute;
+    background: rgba(92, 92, 92, 0.5);
+    color: black;
+    transform: rotate(-45deg);
+    text-align: center;
+    top: 30px;
+    left: -15px;
+    width:140px;
+    color: white;
+}
+
+#livingRoom {
+    padding: 40px 20px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#livingRoom img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 8px 8px 10px gray;
+}
+
+
+#livingRoom img:hover {
+    transform: scale(0.9);
+    transition: all 2s linear 0.3s;
+}
+
+.images {
+    padding-bottom: 20px;
+}
+
+.images p {
+    text-align: center;
+    padding: 15px 0;
+}
+
+#box {
+  margin: 0 auto;
+  background-color: #0b87a7;
+  border-radius: 5px;
+  border: solid 1px grey;
+  width: 100px;
+  height: 38px;
+  padding: 0 7px;
+  text-align: center;
+  color: white;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+#box:hover {
+    background-color: transparent;
+    color: #424242;
+}
+
+/*Kitchen Styles*/
+#kitchen {
+    padding: 40px 20px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#kitchen img {
+    width: 100%;
+    height:500px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 8px 8px 10px gray;
+}
+
+#kitchen img:hover {
+    transform: scale(0.9);
+    transition: all 2s linear 0.3s;
+}
+
+/*Bathroom styles */
+
+#bathroom {
+    padding: 40px 20px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#bathroom img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 8px 8px 10px gray;
+}
+
+
+#bathroom img:hover {
+    transform: scale(0.9);
+    transition: all 2s linear 0.3s;
+}
+
+
+/*Media Queries */
+
+@media (min-width: 320px) {
+    #livingRoom img {
+        width: 100%;
+        height: auto;
+    }
+    .images p {
+        text-align: center;
+        padding: 15px 0;
+    }
+    h1 {
+        font-size: 2rem;
+        padding-top: 5px;
+    }
+    .title h4 {
+        font-size: 0.8rem;
+        padding-left: 10px;
+    }
+    .title p {
+        font-size: 0.7rem;
+    }
+    #about h4,
+    #products h4,
+    #projects h4,
+    #team h4,
+    #contact h3,
+    #team h3 {
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+    .navbar-brand {
+        padding-left: 5px;
+        text-shadow: 1px 1px rgb(51, 51, 51);
+    }
+
+    #about img {
+        height: auto;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #livingRoom img,
+    #kitchen img,
+    #bathroom img {
+        height: auto;
+        width: 100%;
+    }
+
+    button.btn {
+        padding: 6px;
+        font-size: 16px;
+    }
+
+    footer h6 {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+
+    .title button {
+        background: #44ADA5;
+        color: white;
+        font-size: 12px;
+    }
+    .footer-links ul a {
+        padding: 10px;
+        font-size: 12px;
+    }
+    #box {
+        margin: 0 auto;
+        background-color: #0b87a7;
+        border-radius: 5px;
+        border: solid 1px grey;
+        width: 90px;
+        height: 30px;
+        padding: 0 5px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .title {
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 576px) {
+    
+    #livingRoom img {
+        width: 100%;
+        height: auto;
+    }
+    .images p {
+        text-align: center;
+        padding: 15px 0;
+    }
+    h1 {
+        font-size: 2rem;
+        padding-top: 5px;
+    }
+    .title h4 {
+        font-size: 0.8rem;
+        padding-left: 10px;
+    }
+    .title p {
+        font-size: 0.7rem;
+    }
+    #about h4,
+    #products h4,
+    #projects h4,
+    #team h4,
+    #contact h3,
+    #team h3 {
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+    .navbar-brand {
+        padding-left: 5px;
+        text-shadow: 1px 1px rgb(51, 51, 51);
+    }
+
+    #about img {
+        height: auto;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #livingRoom img,
+    #kitchen img,
+    #bathroom img {
+        height: auto;
+        width: 100%;
+    }
+
+    button.btn {
+        padding: 6px;
+        font-size: 16px;
+    }
+
+    footer h6 {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+
+    .title button {
+        background: #44ADA5;
+        color: white;
+        font-size: 12px;
+    }
+    #carousel {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .footer-links ul a {
+        padding: 10px;
+        font-size: 12px;
+    }
+    #box {
+        margin: 0 auto;
+        background-color: #0b87a7;
+        border-radius: 5px;
+        border: solid 1px grey;
+        width: 90px;
+        height: 30px;
+        padding: 0 5px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .title {
+        width: 80%;
+    }
+}
+
+
+@media (min-width:768px) {
+   
+    h1 {
+        font-size: 2.5rem;
+        padding-top: 5px;
+    }
+    .title h4 {
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+    .title p {
+        font-size: 0.9rem;
+    } 
+    #about h4,
+    #products h4,
+    #projects h4,
+    #team h4,
+    #contact h3,
+    #team h3 {
+        font-size: 1.4rem;
+        font-weight: bolder;
+    }
+    footer h6 {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    #carousel {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .footer-links ul a {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .title {
+        width: 70%;
+        top:120px;
+    }
+    #livingRoom img,
+    #kitchen img,
+    #bathroom img {
+        height: auto;
+        width: 100%;
+    }
+ 
+}
+
+@media (min-width: 992px) {
+   
+    h1 {
+        font-size: 4rem;
+        padding-top: 5px;
+    }
+    .title h4 {
+        font-size: 2rem;
+        padding-left: 10px;
+    }
+    .title p {
+        font-size: 1rem;
+    } 
+    #about h4,
+    #products h4,
+    #projects h4,
+    #team h4,
+    #contact h3,
+    #team h3 {
+        font-size: 2.2rem;
+        font-weight: bolder;
+    }
+
+    .title button {
+        background: #44ADA5;
+        color: white;
+        font-size: 18px;
+    }
+  
+ 
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 4.5rem;
+        padding-top: 5px;
+    }
+    .title h4 {
+        font-size: 2.2rem;
+        padding-left: 10px;
+    }
+    .title p {
+        font-size: 1.5rem;
+    } 
+    #about h4,
+    #products h4,
+    #projects h4,
+    #team h4,
+    #contact h3,
+    #team h3 {
+        font-size: 2.1rem;
+        font-weight: bolder;
+    }
+
+    .title button {
+        background: #44ADA5;
+        color: white;
+        font-size: 20px;
+    }
+
+    body {
+        line-height: 35px;
+    }
+
+    footer h6 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    button.btn {
+        padding: 6px;
+        font-size: 16px;
+    }
+    .navbar-brand {
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 20px;
+        text-shadow: 1px 1px rgb(51, 51, 51);
+    }
+    #box {
+        margin: 0 auto;
+        background-color: #0b87a7;
+        border-radius: 5px;
+        border: solid 1px grey;
+        width: 100px;
+        height: 38px;
+        padding: 0 7px;
+        text-align: center;
+        color: white;
+        margin-top: -20px;
+        margin-bottom: 30px;
+        cursor: pointer;
+      }
+}
+
+/*
+Extra small(xs)devices (portrait phones, less than 576px)
+No media query since this is the default is Bootstrap
+ 
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) {...}
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) {...}
+
+LArge (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) {...}
+
+Extra large (xl) devices (large dekstops, 1200px and up)
+@media (min-width: 1200px) {...}
+
+*/
